@@ -27,11 +27,11 @@ pytest --version
 
 Whenever you are creating a new Python project, it is best to stay organized by placing all the files related to the project in the same folder. Create a `root` folder.
 
-Inside the folder, create a new `main.py` file.
+Inside the folder, create a new `extension.py` file.
 
 ## 3. Creating Input - Output Functions For Testing
 
-In `main.py` we will create some simple functions that accept parameters and return some kind of output. PyTest works by allowing you to run a function, and compare expected results with actual results. A simple starting example might be a function that doubles a number:
+In `extension.py` we will create some simple functions that accept parameters and return some kind of output. PyTest works by allowing you to run a function, and compare expected results with actual results. A simple starting example might be a function that doubles a number:
 
 ```python
 def double_integer(a: int) -> int:
