@@ -1,6 +1,6 @@
 import pytest
 
-
+# functions
 def double_integer(a: int) -> int:
     return a * 2
 
@@ -12,6 +12,7 @@ def add(a: float, b: float) -> float:
 def calculate_discount(price: float, discount_percent: float) -> float:
     return price * (1 - discount_percent / 100)
 
+# tests
 
 def test_double_integer():
     assert double_integer(2) == 4
